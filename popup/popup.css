@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    min-height: 300px;
+    background-color: #FFFFE7;
+    color: #41493b;
+}
+h1{
+    color: #2f5a2f;
+    width:fit-content;
+    margin: 0 auto;
+}
+input, textarea{
+    color: #41493b;
+    background-color: #f4fced;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+textarea{
+    resize: none;
+}
+#btn-copy{
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+#btn-copy:hover{
+    background-color: #2f5a2f;
+    cursor: pointer;
+}
+#data-content {
+    display: flex; 
+    flex-direction: column;
+}
